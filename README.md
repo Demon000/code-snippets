@@ -1,2 +1,2 @@
-# fcc-solutions
-A repo to hold my beloved FCC solution before my account disappears. 
+# code-snippets
+A repo to hold my beloved code snippets written for various purposes.
