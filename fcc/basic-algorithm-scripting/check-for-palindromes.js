@@ -6,7 +6,7 @@
 
 
 // ES5 intelligible
-
+// 
 function palindrome(str) {
 	var arrayFromString = str.split('');
   	var reversedArray = arrayFromString.reverse('');
