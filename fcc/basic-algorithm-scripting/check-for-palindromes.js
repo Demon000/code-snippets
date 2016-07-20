@@ -34,7 +34,7 @@ function palindrome(s) {
 }
 
 
-// ES6 small
+// ES6 small, sane
 
 const palindrome = s => s == s.split('').reverse().join('');
 
