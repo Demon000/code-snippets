@@ -6,4 +6,4 @@
 
 // ES6 small
 
-const destroyer = (a, ...v) => a.filter(i => v.indexOf(i) == -1);
+const destroyer = (a, ...v) => a.filter(i => !~v.indexOf(i));

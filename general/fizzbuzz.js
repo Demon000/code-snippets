@@ -9,4 +9,4 @@
 
 // ES6 small
 
-const fizzbuzz = n => ''.concat(n % 3 ? '' : 'Fizz', n % 5 ? '' : 'Buzz') || n; 
+const fizzbuzz = n => '' + (n % 3 ? '' : 'Fizz') + (n % 5 ? '' : 'Buzz') || n;
