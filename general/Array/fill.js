@@ -1,5 +1,5 @@
 /*
- * @summary fills elements of array with value from start up to, but not including, end. 
+ * @summary fills elements of array with value from start up to, but not including, end
  *
  * @warning this function mutates the original array
  *
@@ -36,4 +36,4 @@ function fill(a, v, s, e) {
 
 // ES6
 
-const fill = (a, v, s, e) => 
+const fill = (a, v, s=0, e=a.length) => a.fill(v, s, e);
